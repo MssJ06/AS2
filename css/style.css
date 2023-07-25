@@ -1,0 +1,258 @@
+.bg-image1 {
+    background-image: url("../img/main_bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-image2 {
+    background-image: url("../img/china.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+
+
+a.hover-1:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}
+
+a.hover-2 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-2:hover {
+    color: red!important;
+}
+
+
+a.hover-2:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-2 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}a.hover-3 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-3:hover {
+    color: red!important;
+}
+
+
+a.hover-3:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-3 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}a.hover-4 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-4:hover {
+    color: red!important;
+}
+
+
+a.hover-4:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color:red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-4 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}a.hover-5 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-5:hover {
+    color: red!important;
+}
+
+
+a.hover-5:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-5 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}a.hover-6 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-6:hover {
+    color: red!important;
+}
+
+
+a.hover-6:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: red!important;
+    transition: .5s all;
+}
+
+@keyframes hover-6 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+}
